@@ -5,7 +5,6 @@ var search = Vue.component('search', {
       <div class="search-bar">
         <div class="services">
           <ul>
-            <li>Mua</li>
             <li>Thuê</li>
           </ul>
         </div>
