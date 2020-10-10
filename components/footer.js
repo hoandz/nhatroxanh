@@ -52,50 +52,6 @@ var footerHpc = Vue.component('footerHpc', {
                 <li>Mua bán nhà đất TPHCM</li>
               </ul>
             </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 parent-title">
-              <h2>Bất động sản TPHCM</h2>
-              <ul class="parent">
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-              </ul>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 parent-title">
-              <h2>Bất động sản TPHCM</h2>
-              <ul class="parent">
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-              </ul>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 parent-title">
-              <h2>Bất động sản TPHCM</h2>
-              <ul class="parent">
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-              </ul>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 parent-title">
-              <h2>Bất động sản TPHCM</h2>
-              <ul class="parent">
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-                <li>Mua bán nhà đất TPHCM</li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
