@@ -7,7 +7,7 @@ var props = Vue.component('props', {
         </div>
         <div class="prop-info">
           <h2 class="prop-title">
-            <a class="link-overlay" href="/article">
+            <a class="link-overlay" href="./article.html">
             Căn hộ dịch vụ cao cấp đầy đủ tiện nghi nội thất trung tâm Q.1</a>
           </h2>
           <div class="prop-addr">Nguyễn Phi Khanh, Phường Tân Định, Quận 1, TPHCM</div>
@@ -40,7 +40,7 @@ var props = Vue.component('props', {
         </div>
         <div class="prop-info">
           <h2 class="prop-title">
-            <a class="link-overlay" href="/article">
+            <a class="link-overlay" href="./article.html">
             Căn hộ dịch vụ cao cấp đầy đủ tiện nghi nội thất trung tâm Q.1</a>
           </h2>
           <div class="prop-addr">Nguyễn Phi Khanh, Phường Tân Định, Quận 1, TPHCM</div>
@@ -73,7 +73,7 @@ var props = Vue.component('props', {
         </div>
         <div class="prop-info">
           <h2 class="prop-title">
-            <a class="link-overlay" href="/article">
+            <a class="link-overlay" href="./article.html">
             Căn hộ dịch vụ cao cấp đầy đủ tiện nghi nội thất trung tâm Q.1</a>
           </h2>
           <div class="prop-addr">Nguyễn Phi Khanh, Phường Tân Định, Quận 1, TPHCM</div>
@@ -106,7 +106,7 @@ var props = Vue.component('props', {
         </div>
         <div class="prop-info">
           <h2 class="prop-title">
-            <a class="link-overlay" href="/article">
+            <a class="link-overlay" href="./article.html">
             Căn hộ dịch vụ cao cấp đầy đủ tiện nghi nội thất trung tâm Q.1</a>
           </h2>
           <div class="prop-addr">Nguyễn Phi Khanh, Phường Tân Định, Quận 1, TPHCM</div>
@@ -139,7 +139,7 @@ var props = Vue.component('props', {
         </div>
         <div class="prop-info">
           <h2 class="prop-title">
-            <a class="link-overlay" href="/article">
+            <a class="link-overlay" href="./article.html">
             Căn hộ dịch vụ cao cấp đầy đủ tiện nghi nội thất trung tâm Q.1</a>
           </h2>
           <div class="prop-addr">Nguyễn Phi Khanh, Phường Tân Định, Quận 1, TPHCM</div>
@@ -172,7 +172,7 @@ var props = Vue.component('props', {
         </div>
         <div class="prop-info">
           <h2 class="prop-title">
-            <a class="link-overlay" href="/article">
+            <a class="link-overlay" href="./article.html">
             Căn hộ dịch vụ cao cấp đầy đủ tiện nghi nội thất trung tâm Q.1</a>
           </h2>
           <div class="prop-addr">Nguyễn Phi Khanh, Phường Tân Định, Quận 1, TPHCM</div>

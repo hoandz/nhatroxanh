@@ -4,14 +4,14 @@ var navbar = Vue.component('navbar', {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto logo">
           <li class="nav-item">
-            <a href="/">
+            <a href="./index.html">
               <img src="img/logo.svg" width="108" height="36" alt="mogi" />
             </a>
           </li>
         </ul>
         <ul class="navbar-nav ml-auto menu-top">
           <li class="nav-item ml-2">
-            <a class="nav-link" href="/cho-thue">Tìm thuê</a>
+            <a class="nav-link" href="./torent.html">Tìm thuê</a>
           </li>
           <li class="nav-item ml-2">
             <a class="nav-link"><i class="far fa-heart"></i></a>

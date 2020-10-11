@@ -198,7 +198,7 @@ html{
 }
 .property-item{
   display: inline-block;
-  width: 50%;
+  width: 33.3%;
   padding-right: 10px;
   float: left;
   position: relative;
@@ -383,3 +383,9 @@ html{
   margin-top: 30px;
 }
 // end footer
+
+// slick
+.slick-prev:before, .slick-next:before{
+  color: black !important;
+}
+// end slick

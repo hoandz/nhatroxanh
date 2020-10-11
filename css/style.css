@@ -182,7 +182,7 @@ html {
 
 .property-item {
   display: inline-block;
-  width: 50%;
+  width: 33.3%;
   padding-right: 10px;
   float: left;
   position: relative;
@@ -340,5 +340,8 @@ html {
 
 .parent-title {
   margin-top: 30px; }
+
+.slick-prev:before, .slick-next:before {
+  color: black !important; }
 
 /*# sourceMappingURL=style.css.map */

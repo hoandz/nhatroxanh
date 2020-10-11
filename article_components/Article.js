@@ -22,7 +22,16 @@ var article = Vue.component('Article', {
             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
               <div class="main">
                 <div class="prop-intro">
-                  <div class="gallery">
+                  <div class="gallery" id="gallery">
+                    <div class="gallery-item">
+                      <img src="https://cloud.mogi.vn/images/2020/10/06/345/3617025d26e4481aa639847e9b6b62a3.jpg" />
+                    </div>
+                    <div class="gallery-item">
+                      <img src="https://cloud.mogi.vn/images/2020/10/06/345/3617025d26e4481aa639847e9b6b62a3.jpg" />
+                    </div>
+                    <div class="gallery-item">
+                      <img src="https://cloud.mogi.vn/images/2020/10/06/345/3617025d26e4481aa639847e9b6b62a3.jpg" />
+                    </div>
                     <div class="gallery-item">
                       <img src="https://cloud.mogi.vn/images/2020/10/06/345/3617025d26e4481aa639847e9b6b62a3.jpg" />
                     </div>
@@ -106,7 +115,43 @@ var article = Vue.component('Article', {
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <div class="similar-property">
                 <h2 class="prop-content-header">Bất động sản tương tự</h2>
-                <div class="row row-cols-1 row-cols-md-3">
+                <div class="row row-cols-1 row-cols-md-3" id="SimilarUrlSlide">
+                    <div class="col mb-4">
+                      <div class="card">
+                        <img src="https://cloud.mogi.vn/images/thumb-small/2020/10/09/096/c343e80e8eb6412bb12bce1c63e33e20.jpg" class="card-img-top" alt="test" />
+                        <div class="card-body">
+                          <h5 class="card-title">6 triệu 300 nghìn</h5>
+                          <p class="card-text"><a href="#">Căn Hộ Gác Lững Tiện Nghi, PHAN XÍCH LONG - Gần CoopMart Rạch Miêu</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card">
+                        <img src="https://cloud.mogi.vn/images/201905/21/423/8abccee50a1a4b3ea1b5b3e851aecc29.jpg" class="card-img-top" alt="test" />
+                        <div class="card-body">
+                          <h5 class="card-title">3 triệu 700 nghìn</h5>
+                          <p class="card-text"><a href="#">Cho Thuê Căn Hộ Chung Cư Lý Thường Kiệt Quận 10 gần Đại Học HUFLIT</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card">
+                        <img src="https://cloud.mogi.vn/images/thumb-small/2020/06/03/212/32108ac6d06b40b0b6d74775d78e5dad.jpg" class="card-img-top" alt="test" />
+                        <div class="card-body">
+                          <h5 class="card-title">5 triệu 300 nghìn</h5>
+                          <p class="card-text"><a href="#">CCăn Hộ Chung Cư Nội Thất Cao cấp Quận 10 Tô Hiến Thành Siêu Thị Big C</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card">
+                        <img src="https://cloud.mogi.vn/images/thumb-small/2020/07/01/331/74aa4ebc05544b219726e9bb02985b3c.jpg" class="card-img-top" alt="test" />
+                        <div class="card-body">
+                          <h5 class="card-title">8 triệu 300 nghìn</h5>
+                          <p class="card-text"><a href="#">Căn hộ cao Cấp Quận 10 Tô Hiến Thành TT Thương Mại Sư Vạn Hạnh Small</a></p>
+                        </div>
+                      </div>
+                    </div>
                     <div class="col mb-4">
                       <div class="card">
                         <img src="https://cloud.mogi.vn/images/thumb-small/2020/10/09/096/c343e80e8eb6412bb12bce1c63e33e20.jpg" class="card-img-top" alt="test" />
@@ -150,5 +195,36 @@ var article = Vue.component('Article', {
         </div>
       </div>
     </div>
-  `
+  `,
+  data: function(){
+    return{
+
+    }
+  },
+  methods:{
+    initSlicker(){
+    $('#gallery').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: true,
+        infinite: true
+    });
+   },
+   similarUrlSlide(){
+    $('#SimilarUrlSlide').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: false,
+        infinite: true
+    });
+   }
+  },
+  mounted(){
+    this.initSlicker();
+    this.similarUrlSlide();
+  }
 })
