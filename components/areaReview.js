@@ -68,7 +68,21 @@ var areaReview = Vue.component('areaReview', {
         autoplaySpeed: 3000,
         dots: false,
         infinite: true,
-        arrows: false
+        arrows: false,
+        responsive: [
+        {
+          breakpoint: 990,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 630,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
     });
    }
   },

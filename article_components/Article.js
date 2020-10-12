@@ -198,7 +198,6 @@ var article = Vue.component('Article', {
   `,
   data: function(){
     return{
-
     }
   },
   methods:{

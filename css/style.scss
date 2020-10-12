@@ -1,9 +1,9 @@
 html{
   overflow-x: hidden;
 }
-.row{
-  max-width: 2440px;
-}
+// .row{
+//   max-width: 2440px;
+// }
 // nav
 .hpc-navbar .navbar{
   width: 100%;
@@ -92,12 +92,16 @@ html{
   height: 50px;
   float: left;
   box-sizing: border-box;
+  padding: 0px 5px 0px 0px;
 }
 .select-3, .select-4{
   width: 20%;
   height: 50px;
   float: left;
   box-sizing: border-box; 
+}
+.select-4{
+  padding: 0px 0px 0px 5px;
 }
 .search{
   width: 100%;
@@ -411,3 +415,25 @@ html{
   color: black !important;
 }
 // end slick
+
+// responsive
+@media only screen and (max-width: 768px){
+  .property-item{
+    width: 50%;
+  }
+  .search-bar-box{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 414px){
+  .property-item{
+    width: 100%;
+  }
+  .property-list{
+    padding-left: 0.5px;
+  }
+  .property-listing{
+    padding: 10px 10px;
+  }
+}
+// end responsive

@@ -14,6 +14,9 @@ var navbar = Vue.component('navbar', {
             <a class="nav-link" href="./torent.html">Tìm thuê</a>
           </li>
           <li class="nav-item ml-2">
+            <a class="nav-link" href="./lienhe.html">Liên hệ</a>
+          </li>
+          <li class="nav-item ml-2">
             <a class="nav-link"><i class="far fa-heart"></i></a>
           </li>
           <li class="nav-item ml-2">
