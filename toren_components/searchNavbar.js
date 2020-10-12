@@ -52,9 +52,7 @@ var searchNavbar = Vue.component('searchNavbar', {
           </div>
           <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
             <div class="form-group keywords">
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option>Lọc</option>
-              </select>
+              <button type="button" class="btn btn-primary">Tìm kiếm</button>
             </div>
           </div>
         </div>
