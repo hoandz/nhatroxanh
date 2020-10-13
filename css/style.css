@@ -4,6 +4,31 @@ html {
 .hpc-navbar .navbar {
   width: 100%; }
 
+.nav-mobile {
+  width: 100%;
+  height: 40px;
+  display: -moz-box;
+  display: flex;
+  -moz-box-pack: justify;
+       justify-content: space-between;
+  display: none; }
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s; }
+
+.changeNav .bar1 {
+  transform: rotate(-45deg) translate(-9px, 6px); }
+
+.changeNav .bar2 {
+  opacity: 0; }
+
+.changeNav .bar3 {
+  transform: rotate(45deg) translate(-8px, -8px); }
+
 .bg-page-content {
   width: 100%;
   height: 510px;
@@ -344,20 +369,77 @@ html {
 .slick-prev:before, .slick-next:before {
   color: black !important; }
 
+@media only screen and (max-width: 990px) {
+  .nav-desktop {
+    display: none !important; }
+
+  .nav-mobile {
+    display: -moz-box;
+    display: flex; } }
 @media only screen and (max-width: 768px) {
   .property-item {
     width: 50%; }
 
   .search-bar-box {
-    width: 100%; } }
+    width: 100%; }
+
+  .search-bar {
+    width: 80%;
+    margin: 0 auto; }
+
+  .container-search {
+    width: 90%; }
+
+  .search-bar-box h2 {
+    text-align: center; } }
 @media only screen and (max-width: 414px) {
+  .bg-page-content {
+    height: 360px; }
+
   .property-item {
     width: 100%; }
+
+  .nav-mobile {
+    padding: 0px 10px; }
 
   .property-list {
     padding-left: 0.5px; }
 
   .property-listing {
-    padding: 10px 10px; } }
+    padding: 10px 10px; }
+
+  .search-bar {
+    width: 80%;
+    margin: 0 auto;
+    height: 220px; }
+
+  .container-search {
+    width: 90%;
+    height: 150px; }
+
+  .search-bar-box h2 {
+    font-size: 20px; }
+
+  .search-filter {
+    height: 105px;
+    padding-top: 10px; }
+
+  .select-1, .select-2 {
+    width: 50%;
+    padding: 0; }
+
+  .select-3, .select-4 {
+    width: 50%; }
+
+  .select-2 {
+    padding: 0px 0px 0px 5px; }
+
+  .search .form-control {
+    font-size: 9px; }
+
+  .footer h2 {
+    font-size: 20px; }
+  .footer p {
+    width: 95% !important; } }
 
 /*# sourceMappingURL=style.css.map */

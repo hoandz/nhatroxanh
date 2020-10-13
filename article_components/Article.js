@@ -218,7 +218,21 @@ var article = Vue.component('Article', {
         autoplay: true,
         autoplaySpeed: 3000,
         dots: false,
-        infinite: true
+        infinite: true,
+        responsive: [
+        {
+          breakpoint: 990,
+          settings: {
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 630,
+          settings: {
+            slidesToShow: 2
+          }
+        }
+      ]
     });
    }
   },

@@ -3,7 +3,7 @@ var searchNavbar = Vue.component('searchNavbar', {
     <div class="search-bar-child">
       <div class="container">
         <div class="row">
-          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          <div class="col-xs-4 col-sm-12 col-md-4 col-lg-4">
             <div class="input-group keywords">
               <div class="input-group-prepend">
                 <span class="input-group-text color-search" id="basic-addon1">
@@ -18,7 +18,10 @@ var searchNavbar = Vue.component('searchNavbar', {
               />
             </div>
           </div>
-          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+          <div 
+          class="col-xs-4 col-sm-6 col-md-4 col-lg-4"
+          style="height: 50px;"
+          >
             <div class="form-group keywords">
               <select class="form-control" id="exampleFormControlSelect1">
                 <option>Toàn quốc</option>
@@ -30,7 +33,10 @@ var searchNavbar = Vue.component('searchNavbar', {
               </select>
             </div>
           </div>
-          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+          <div 
+          class="col-xs-4 col-sm-6 col-md-4 col-lg-4"
+          style="height: 50px;"
+          >
             <div class="form-group keywords">
               <select class="form-control" id="exampleFormControlSelect1">
                 <option>Loại bất động sản</option>
@@ -43,16 +49,24 @@ var searchNavbar = Vue.component('searchNavbar', {
               </select>
             </div>
           </div>
-          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+          <div 
+          class="col-xs-4 col-sm-6 col-md-4 col-lg-4"
+          style="height: 50px;"
+          >
             <div class="form-group keywords">
               <select class="form-control" id="exampleFormControlSelect1">
                 <option>Giá thuê</option>
               </select>
             </div>
           </div>
-          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+          <div 
+          class="col-xs-4 col-sm-6 col-md-4 col-lg-4"
+          style="height: 50px;"
+          >
             <div class="form-group keywords">
-              <button type="button" class="btn btn-primary">Tìm kiếm</button>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Giá thuê</option>
+              </select>
             </div>
           </div>
         </div>

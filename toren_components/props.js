@@ -27,7 +27,7 @@ var props = Vue.component('props', {
             <div class="favorite">
               <ul>
                 <li><i class="fas fa-phone-alt"></i></li>
-                <li class="call-tlphone">0964341331</li>
+                <li class="call-tlphone">0964341***</li>
                 <li><i class="far fa-heart"></i></li>
               </ul>
             </div>
@@ -60,7 +60,7 @@ var props = Vue.component('props', {
             <div class="favorite">
               <ul>
                 <li><i class="fas fa-phone-alt"></i></li>
-                <li class="call-tlphone">0964341331</li>
+                <li class="call-tlphone">0964341***</li>
                 <li><i class="far fa-heart"></i></li>
               </ul>
             </div>
@@ -93,7 +93,7 @@ var props = Vue.component('props', {
             <div class="favorite">
               <ul>
                 <li><i class="fas fa-phone-alt"></i></li>
-                <li class="call-tlphone">0964341331</li>
+                <li class="call-tlphone">0964341***</li>
                 <li><i class="far fa-heart"></i></li>
               </ul>
             </div>
@@ -126,7 +126,7 @@ var props = Vue.component('props', {
             <div class="favorite">
               <ul>
                 <li><i class="fas fa-phone-alt"></i></li>
-                <li class="call-tlphone">0964341331</li>
+                <li class="call-tlphone">0964341***</li>
                 <li><i class="far fa-heart"></i></li>
               </ul>
             </div>
@@ -159,7 +159,7 @@ var props = Vue.component('props', {
             <div class="favorite">
               <ul>
                 <li><i class="fas fa-phone-alt"></i></li>
-                <li class="call-tlphone">0964341331</li>
+                <li class="call-tlphone">0964341***</li>
                 <li><i class="far fa-heart"></i></li>
               </ul>
             </div>
@@ -192,7 +192,7 @@ var props = Vue.component('props', {
             <div class="favorite">
               <ul>
                 <li><i class="fas fa-phone-alt"></i></li>
-                <li class="call-tlphone">0964341331</li>
+                <li class="call-tlphone">0964341***</li>
                 <li><i class="far fa-heart"></i></li>
               </ul>
             </div>

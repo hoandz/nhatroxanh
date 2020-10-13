@@ -1,11 +1,11 @@
 var navbar = Vue.component('navbar', {
   template: `
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-desktop">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto logo">
           <li class="nav-item">
             <a href="./index.html">
-              <img src="img/logo.svg" width="108" height="36" alt="mogi" />
+              <img src="https://logodownload.org/wp-content/uploads/2019/08/alba-logo.png" width="85" height="36" alt="mogi" />
             </a>
           </li>
         </ul>
